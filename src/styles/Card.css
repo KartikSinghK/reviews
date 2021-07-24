@@ -1,0 +1,17 @@
+.ui.card{
+    width:300px;
+}
+.ui.card>.image img {
+    object-fit: cover;
+    height:250px;
+}
+.icons, .buttons {
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+
+}
+.icons>.icon{
+    cursor:pointer;
+    margin:5px 10px;
+}
